@@ -1,0 +1,57 @@
+aid: data-kildarecoco-ie
+name: Kildare County Council Open Data
+description: >-
+  Kildare County Council Open Data is a county government open-data portal for Ireland running CKAN. It exposes the CKAN catalog API over approximately 80 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/data-kildarecoco-ie/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - County Government
+  - Ireland
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: data-kildarecoco-ie:catalog
+    name: Kildare County Council Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Kildare County Council Open Data, ~80 datasets. Base URL https://data.kildarecoco.ie/api/3/action/.
+    humanURL: https://data.kildarecoco.ie
+    baseURL: https://data.kildarecoco.ie/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://data.kildarecoco.ie
+      - type: x-api-endpoint
+        url: https://data.kildarecoco.ie/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.9.14'
+common:
+  - type: Website
+    url: https://data.kildarecoco.ie
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/data-kildarecoco-ie-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/data-kildarecoco-ie-rate-limits.yml
+  - type: FinOps
+    url: finops/data-kildarecoco-ie-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
